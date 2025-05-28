@@ -1,3 +1,4 @@
+
 # 🩸 DoaPE – Aplicativo de Doação de Sangue em Pernambuco
 
 **DoaPE** é um aplicativo desenvolvido em **React Native** com foco exclusivo em promover e facilitar a **doação de sangue no estado de Pernambuco**. O app conecta possíveis doadores aos centros de coleta próximos, oferece informações educativas e funcionalidades úteis para quem quer salvar vidas.
@@ -29,4 +30,6 @@
 - [Axios](https://axios-http.com/) – consumo de API externa
 
 ---
+
+![Captura de tela 2025-05-28 001405](https://github.com/user-attachments/assets/5c9214d9-a491-4152-b6d7-cb2a7bf379b0)
 
