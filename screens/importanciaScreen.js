@@ -8,7 +8,7 @@ export default function ImportanciaScreen() {
       <FundoWrapper>
       <ScrollView style={styles.container}>
         <Image
-          source={require('../../assets/importancia.png')}
+          source={require('../assets/importancia.png')}
           style={styles.topImage}
           resizeMode="contain"
         />
@@ -25,7 +25,7 @@ export default function ImportanciaScreen() {
       <Card style={styles.card}>
         <Card.Content style={styles.CardContent}>
           <Image
-            source={require('../../assets/importancia.png')} style={styles.avatar}/>
+            source={require('../assets/importancia.png')} style={styles.avatar}/>
             <Text style={styles.cardText}>
               Cada doação pode salvar até três vidas.
             </Text>
@@ -35,7 +35,7 @@ export default function ImportanciaScreen() {
         <Card style={styles.card}>
         <Card.Content style={styles.CardContent}>
           <Image
-            source={require('../../assets/importancia.png')} style={styles.avatar}/>
+            source={require('../assets/importancia.png')} style={styles.avatar}/>
             <Text style={styles.cardText}>
               Doação de sangue melhora a saúde cardiovascular e reduz o risco de alguns tipos de câncer.
             </Text>
@@ -45,7 +45,7 @@ export default function ImportanciaScreen() {
            <Card style={styles.card}>
         <Card.Content style={styles.CardContent}>
           <Image
-            source={require('../../assets/importancia.png')} style={styles.avatar}/>
+            source={require('../assets/importancia.png')} style={styles.avatar}/>
             <Text style={styles.cardText}>
                Ajuda em cirurgias, tratamentos e emergências.
             </Text>

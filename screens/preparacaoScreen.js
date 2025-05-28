@@ -10,7 +10,7 @@ export default function PreparacaoScreen() {
     <ScrollView style={styles.container}>
 
      <Image
-    source={require('../../assets/preparacao.png')}style={styles.topImage}resizeMode="contain"/>
+    source={require('../assets/preparacao.png')}style={styles.topImage}resizeMode="contain"/>
 
       <Text style={styles.titulo}>
         O que fazer antes da doação?

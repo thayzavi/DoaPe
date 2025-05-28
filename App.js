@@ -5,13 +5,13 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Provider as PaperProvider } from 'react-native-paper';
 
 //rotas de navegação
-import HomeScreen from './src/screens/homeScreen';
-import LocaisScreen from './src/screens/locaisScreen';
-import ImportanciaScreen from './src/screens/importanciaScreen';
-import TipoScreen from './src/screens/tiposScreen';
-import PreparacaoScreen from './src/screens/preparacaoScreen';
-import ImpedimentosScreen from './src/screens/impedimentosScreen';
-import FavoritoScreen from './src/screens/favoritoScreen';
+import HomeScreen from './screens/homeScreen';
+import LocaisScreen from './screens/locaisScreen';
+import ImportanciaScreen from './screens/importanciaScreen';
+import TipoScreen from './screens/tiposScreen';
+import PreparacaoScreen from './screens/preparacaoScreen';
+import ImpedimentosScreen from './screens/impedimentosScreen';
+import FavoritoScreen from './screens/favoritoScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -28,7 +28,7 @@ export default function App() {
     <PaperProvider theme={theme}>
       <NavigationContainer>
         <Stack.Navigator >
-          <Stack.Screen name="Doa PE" component={HomeScreen} />
+          <Stack.Screen name="Doa PE" component={HomeScreen} /> 
           <Stack.Screen name="Locais" component={LocaisScreen} />
           <Stack.Screen name="Tipos" component={TipoScreen} />
           <Stack.Screen name="Impedimentos" component={ImpedimentosScreen} />

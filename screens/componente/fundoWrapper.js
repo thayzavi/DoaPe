@@ -4,7 +4,7 @@ import { ImageBackground, StyleSheet } from "react-native";
 const FundoWrapper =({ children}) => {
 return(
         <ImageBackground
-            source={require('../../../assets/fundo.png')}
+            source={require('../../assets/fundo.png')}
             style={styles.background}
             resizeMode="cover">
 

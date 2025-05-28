@@ -10,7 +10,7 @@ export default function TiposScreen() {
     <ScrollView style={styles.container}>
 
       <Image
-       source={require('../../assets/tipos.png')}style={styles.topImage}resizeMode="contain"/>
+       source={require('../assets/tipos.png')}style={styles.topImage}resizeMode="contain"/>
 
 
       <Text style={styles.titulo}>
@@ -21,7 +21,7 @@ export default function TiposScreen() {
     <Card style={styles.card}>
       <Card.Content style={styles.CardContent}>
         <Image
-         source={require('../../assets/tipoA.png')} style={styles.avatar}/>
+         source={require('../assets/tipoA.png')} style={styles.avatar}/>
         <View style={styles.textContainer}>
           <Text style={styles.cardTitle}> Tipo A</Text>
           <Text style={styles.cardSubtitle}>Pode ser para A e AB </Text>
@@ -32,7 +32,7 @@ export default function TiposScreen() {
     <Card style={styles.card}>
       <Card.Content style={styles.CardContent}>
         <Image
-         source={require('../../assets/tipoO.png')} style={styles.avatar}/>
+         source={require('../assets/tipoO.png')} style={styles.avatar}/>
         <View style={styles.textContainer}>
           <Text style={styles.cardTitle}>Tipo B</Text>
           <Text style={styles.cardSubtitle}>Pode doar B e AB </Text>
@@ -43,7 +43,7 @@ export default function TiposScreen() {
     <Card style={styles.card}>
       <Card.Content style={styles.CardContent}>
         <Image
-         source={require('../../assets/tipoB.png')} style={styles.avatar}/>
+         source={require('../assets/tipoB.png')} style={styles.avatar}/>
         <View style={styles.textContainer}>
           <Text style={styles.cardTitle}> Tipo O</Text>
           <Text style={styles.cardSubtitle}>Pode doar para todos os tipo (doador universal) </Text>
@@ -55,7 +55,7 @@ export default function TiposScreen() {
     <Card style={styles.card}>
       <Card.Content style={styles.CardContent}>
         <Image
-         source={require('../../assets/tipoB.png')} style={styles.avatar}/>
+         source={require('../assets/tipoB.png')} style={styles.avatar}/>
         <View style={styles.textContainer}>
           <Text style={styles.cardTitle}>Tipo AB</Text>
           <Text style={styles.cardSubtitle}>Pode receber todos os tipos </Text>

@@ -9,7 +9,7 @@ export default function InfoDoacao() {
   <FundoWrapper>
     <ScrollView style={styles.container}>
      <Image
-          source={require('../../assets/impedimentos.png')}
+          source={require('../assets/impedimentos.png')}
           style={styles.topImage}
           resizeMode="contain" />
 
